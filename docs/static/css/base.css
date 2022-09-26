@@ -1,0 +1,15 @@
+body{
+	font-family: arial;
+	color: #fff;
+	background: #bfbfbf;
+}
+@media(min-width: 550px){
+	.nav-list{
+		display: inline-flex;
+		list-style: none;
+	}
+
+	.nav-list li{
+		margin-right:10px ;
+	}
+}
