@@ -30,7 +30,7 @@ body{background: #383161;font-family: arial;text-align: center;}
 .header-con img{position: fixed;left: 10px;margin: 3px;height: 40px;width: 40px;border-radius: 50%;overflow: none;visibility: visible;}
 .header-con h4{position: fixed;left: 15px;margin: 15px auto 15px 45px;overflow: none;color: #fff;visibility: visible;}
 #menu-btn{visibility: visible;color: #fff;position: fixed;right: 10px;font-size: 25px;margin: 15px auto 15px 45px;}
-.menu-bar{z-index: inherit; position: fixed;top: 30px;right: 3px;margin-top: 6%;visibility:hidden;height: 100%;background:#0d001a;border-radius: 5px;}
+.menu-bar{z-index: 5; position: fixed;top: 30px;right: 3px;margin-top: 6%;visibility:hidden;height: 100%;background:#0d001a;border-radius: 5px;}
 .menu-bar li{color: #fff;list-style: none;padding-top: 8%;margin: 16px 0px ;border-radius: 5px;text-align: center;height: 35px;width: 160px;border-radius: 5px;}
 .menu-bar li:hover{background: #fff;color: #000;}}
 .greet {width: 28ch;  font-family:Bree Serif; color: cyan; animation: typing 2s steps(30), blink .5s step-end infinite alternate;white-space: nowrap;overflow: hidden;border-right: 3px solid;font-size: 15px;position: absolute;top: 40%;left: 50px;}
