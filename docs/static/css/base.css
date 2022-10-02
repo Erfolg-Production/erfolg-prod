@@ -14,6 +14,9 @@ body{
 	visibility: visible;
 	left: 0px;
 }
+#menu-btn{
+	display: none;
+}
 .menu-bar{
 	visibility: hidden;
 }
@@ -63,7 +66,7 @@ body{
 }}
 
 @media(min-width: 551px) and (max-width: 849px){
-		.header-con{
+	.header-con{
 	background: linear-gradient(#383161, #202c45);
 	height: 50px;
 	width: 100%;
@@ -71,12 +74,13 @@ body{
 	visibility: visible;
 	left: 0px;
 }
+#menu-btn{
+	display: none;
+}
 .menu-bar{
-	visibility: hidden;
+	display: none;
 }
-.menu-bar li{
-	visibility: hidden;
-}
+
 .header-con .logo{
 	position: fixed;
 	left: 10px;
@@ -123,6 +127,7 @@ body{
 @media(max-width:550px){
 .nav-list li{
 	visibility: hidden;
+	display: none;
 }
 .header-con{
 	background: linear-gradient(#383161, #202c45);
@@ -133,36 +138,32 @@ body{
 	left: 0px;
 	top: 0px;
 }
-
 .header-con img{
 	position: fixed;
 	left: 10px;
 	margin: 3px;
-	height: 45px;
+	height: 40px;
 	width: 40px;
 	border-radius: 50%;
 	overflow: none;
 	visibility: visible;
 }
-
 .header-con h4{
 	position: fixed;
 	left: 15px;
 	margin: 15px auto 15px 45px;
 	overflow: none;
 	color: #fff;
-	font-size: 20px;
 	visibility: visible;
 }
-
 #menu-btn{
 	visibility: visible;
 	color: #fff;
 	position: fixed;
 	right: 10px;
-	margin: 10px auto 15px 45px;
-	font-size: 30px;
-	overflow: none;
+	font-size: 25px;
+	margin: 15px auto 15px 45px;
+
 }
 .menu-bar{
 	visibility: visible;
@@ -174,9 +175,7 @@ body{
 	height: 100%;
 	background:#0d001a;
 	border-radius: 5px;
-	overflow: none;
 }
-
 
 .menu-bar li{
 	color: #fff;
@@ -194,7 +193,6 @@ body{
 	background: #fff;
 	color: #000;
 }
-
 
 
 }
