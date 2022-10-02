@@ -4,7 +4,11 @@ body{
 	text-align: center;
 }	
 
-
+.home-section{
+	width: auto;
+	height: auto;
+	color: #fff;
+}
 @media(min-width:850px){
 .header-con{
 	background: linear-gradient(#383161, #202c45);
@@ -13,12 +17,13 @@ body{
 	position: fixed;
 	visibility: visible;
 	left: 0px;
+	top: 0px;
 }
 #menu-btn{
 	display: none;
 }
 .menu-bar{
-	visibility: hidden;
+	display: none;
 }
 .menu-bar li{
 	visibility: hidden;
@@ -168,7 +173,7 @@ body{
 .menu-bar{
 	visibility: visible;
 	position: fixed;
-	top: 48px;
+	top: 30px;
 	right: 3px;
 	margin-top: 6%;
 	visibility:hidden;
