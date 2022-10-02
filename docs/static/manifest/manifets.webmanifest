@@ -1,0 +1,11 @@
+{
+    "theme_color" : "#201f1e",
+    "background_color" : "#141414",
+    "display" : "standalone",
+    "scope" : "/",
+    "logo" : "icon-310-310.png",
+    "start_url" : "/index.html",
+    "name" : "Erfolg Production",
+    "short_name" : "Erfolg",
+    "description" : "Best Quality Streaming "
+    }
