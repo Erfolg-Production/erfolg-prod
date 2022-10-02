@@ -1,0 +1,41 @@
+<body>
+<div class="wrapper">
+    <div class="typing-demo">
+      Welcome To Hacker World
+    </div>
+</div>
+</body>
+<style>
+body{
+    background-color: #000;
+    color: #00ff00;
+}
+ /*.wrapper {
+  height: 100vh;
+ This part is important for centering
+  display: grid;
+  place-items: center;
+}
+*/
+.typing-demo {
+  width: 23ch;
+  animation: typing 2s steps(23), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+</style>
