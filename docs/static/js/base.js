@@ -1,8 +1,6 @@
 var menu_bar = document.getElementById("menubar");
 count = 0
 
-
-
 function menu_toggle(){
     if(count == 0){
         menu_bar.style.visibility = "visible";
@@ -12,4 +10,5 @@ function menu_toggle(){
         count = 0
     }
 }
+
 
