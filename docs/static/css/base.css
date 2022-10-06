@@ -39,5 +39,5 @@ body{background: #383161;font-family: arial;text-align: center;}
 .menu-bar li{color: #fff;list-style: none;padding-top: 8%;margin: 16px 0px ;border-radius: 5px;text-align: center;height: 35px;width: 160px;border-radius: 5px;}
 .menu-bar li:hover{background: #fff;color: #000;}
 .greet-con{position: absolute; top: 40%;  left: 25%; align-items: center; text-align: center;}
-.greet {width: 28ch; font-family:Bree Serif; color: cyan; animation: typing 2s steps(30), blink .5s step-end infinite alternate;white-space: nowrap;overflow: hidden;border-right: 3px solid;font-size: 15px;position: absolute;top: 40%;}}
+.greet {display:flex; width: 28ch; font-family:Bree Serif; color: #000; animation: typing 2s steps(30), blink .5s step-end infinite alternate;white-space: nowrap;overflow: hidden;border-right: 3px solid;font-size: 15px;position: absolute;top: 40%;}}
 
