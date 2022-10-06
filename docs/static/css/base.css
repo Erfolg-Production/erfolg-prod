@@ -1,4 +1,4 @@
-body{background: #383161;font-family: arial;text-align: center;}	
+body{background: #f6f6f6;font-family: arial;text-align: center;}	
 .content-section{color: #fff;}
 @keyframes typing {from {width: 0}}  
 
@@ -17,7 +17,7 @@ body{background: #383161;font-family: arial;text-align: center;}
 .greet {width: 28ch; font-family:Bree Serif; color: cyan; animation: typing 2s steps(30), blink .5s step-end infinite alternate;white-space: nowrap;overflow: hidden;border-right: 3px solid;font-size: 15px;position: absolute;top: 40%;}}
 
 @media(min-width: 551px) and (max-width: 849px){
-.header-con{background: linear-gradient(#383161, #202c45);height: 50px;width: 100%;position: fixed;visibility: visible;left: 0px;}
+.header-con{background: linear-gradient(#383161, #202c45);height: 50px;width: 100%;position: fixed;visibility: visible;left: 0px; top:0;}
 #menu-btn{display: none;}
 .menu-bar{display: none;}
 .header-con .logo{position: fixed;left: 10px;margin: 3px;height: 40px;width: 40px;border-radius: 50%;overflow: none;}
