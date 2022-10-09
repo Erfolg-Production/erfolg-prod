@@ -3,7 +3,6 @@
 @keyframes typing {from {width: 0}}
 @keyframes color_change{0%{color: #fff;}25%{color: red;}50%{color: #00ff00;}75%{color: #0000ff;}100%{color: yellow;}}  
 
-
 @media(min-width:850px){
 .header-con{background: linear-gradient(#383161, #202c45);height: 50px;width: 100%;position: fixed;visibility: visible;left: 0px;top: 0px;}
 #menu-btn{display: none;}
