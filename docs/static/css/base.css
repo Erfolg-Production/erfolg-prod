@@ -1,4 +1,4 @@
-
+.header-con{z-index:2;}
 .content-section{position: absolute; background-color: rgb(255, 255, 255); color: #000; visibility: visible; display: flex;  height: 100%; margin-top: 42px; width: 100%; left: 0; right: 0;}
 @keyframes typing {from {width: 0}}  
 
